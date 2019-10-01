@@ -38,8 +38,3 @@ cacheSolve <- function(x, ...) {
         m
 }
 
-m2 <- makeCacheMatrix(n2)
-cacheSolve(m2)
-
-m2 <- makeCacheMatrix(m1)
-cacheSolve((m2))
